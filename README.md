@@ -10,4 +10,4 @@ Aditya Gunjkar IT LIT2023015 aditya.gunjkar04@gmail.com aditya-gg04
 
 Satpute Vishal Suryakant CS LCS2023052 vishalsatpute300@outlook.com vishal18713
 
-
+Vedant Jadhav CS LCS2023035 vedantjadhav44551@gmail.com VedantJadhav0016
