@@ -20,5 +20,5 @@ Robinaditya1045
 
 Garikapati Sairam Sharan IT LIT2023009 saigarikapati1@gmail.com sairamsharan
 
-Soham Balwant CS LCS2023021 
+Soham Balwant CS LCS2023021 sohambalwant27@gmail.com SohamBalwant
 
