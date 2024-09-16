@@ -114,3 +114,105 @@ The Netflix clone will be a media streaming platform that allows users to watch 
   - Users shall be able to customize which notifications they receive (e.g., new episodes, subscription reminders).
   - Notifications shall be sent to remind users of upcoming subscription renewals or promotions.
   - The system shall notify users when content in their watchlist is about to expire.
+
+## 4. Non-Functional Requirements
+
+### 4.1 Performance
+- The system shall load the homepage and content categories within 2 seconds under normal network conditions.
+- Streaming content shall start within 5 seconds, with adaptive video quality adjustments to minimize buffering.
+- The system shall support up to 10,000 concurrent users without significant performance degradation or latency issues.
+- Search results should be displayed within 3 seconds of the user entering a search query.
+
+### 4.2 Security
+- User data, including payment details and personal information, shall be encrypted both in transit (via HTTPS) and at rest (AES-256 encryption).
+- The system shall enforce strong password policies to ensure account security, with options for multi-factor authentication (2FA) using phone number or email.
+- Regular security audits shall be performed to identify vulnerabilities, and all code changes shall be subject to a security review before deployment.
+- The application shall comply with international data protection regulations such as GDPR (General Data Protection Regulation) and CCPA (California Consumer Privacy Act).
+
+### 4.3 Usability
+- The interface shall be intuitive, with easy navigation between content categories, user profiles, settings, and subscription management options.
+- The application shall be designed for responsiveness across various devices (smartphones, tablets, web browsers, smart TVs).
+- Accessibility features such as screen readers, contrast adjustments, and keyboard navigation shall be implemented to ensure that the app is usable by people with disabilities.
+- Users shall have access to a help section, FAQs, and contact details for customer support directly within the app.
+
+### 4.4 Scalability
+- The system architecture shall support horizontal scaling to accommodate a growing user base and increasing demand for streaming services.
+- The back-end infrastructure shall be capable of handling large spikes in traffic during high-demand periods, such as new content releases or promotions.
+- The database architecture shall be optimized for high-traffic scenarios, supporting real-time content recommendations, streaming, and payments without performance degradation.
+
+### 4.5 Reliability and Availability
+- The system shall achieve 99.9% uptime, with automatic failover mechanisms in place to ensure service continuity in the event of server failure.
+- Data backups shall be performed daily, with redundancy across multiple geographic locations to prevent data loss in case of catastrophic failure.
+- The application shall be designed to recover gracefully from server outages, ensuring that users can resume content from where they left off after a disruption.
+
+### 4.6 Maintainability
+- The codebase shall be modular, allowing for easy updates and feature additions without major system overhauls.
+- Automated testing shall be implemented to ensure that updates and new features do not introduce regressions or bugs into the system.
+- Comprehensive documentation shall be maintained for all system components, APIs, and user interfaces to facilitate easier maintenance and future development.
+- The system shall support logging and monitoring of all critical operations, allowing developers and administrators to quickly identify and resolve issues.
+
+### 4.7 Compatibility
+- The Netflix clone shall be compatible with major operating systems (Android, iOS, Windows, macOS) and web browsers (Chrome, Safari, Firefox, Edge).
+- The application shall support multiple device types, including smartphones, tablets, laptops, smart TVs, and streaming devices (e.g., Chromecast, Apple TV).
+- All media files shall be encoded in formats that are widely supported by browsers and devices (e.g., MP4, HLS for streaming).
+
+### 4.8 Legal and Compliance
+- The system shall comply with all local and international copyright laws and content licensing agreements.
+- User data shall be handled in compliance with data protection laws, including the right to data portability, the right to be forgotten, and explicit consent for data collection.
+- The system shall provide terms of service and privacy policy agreements, which users must accept before using the platform.
+
+### 4.9 Localization
+- The application shall support multiple languages for both content and the user interface, with region-specific content availability.
+- Currency and payment options should be localized based on the user’s geographical location, supporting region-specific payment methods and currencies.
+- Content licenses shall be managed according to region-specific licensing agreements, restricting certain media in specific countries or regions.
+
+### 4.10 Data Management
+- **Data Retention**: Define policies for how long user data, including viewing history and user-generated content, will be retained and under what conditions it will be deleted.
+- **Data Migration**: Include plans for data migration if the system needs to transition from one database or format to another.
+
+### 4.11 Performance Optimization
+- **Caching Strategies**: Specify caching mechanisms to improve performance, such as content delivery networks (CDNs) for media and in-memory caching for frequently accessed data.
+- **Load Testing**: Outline the approach for load testing to ensure the system can handle anticipated traffic and identify performance bottlenecks.
+
+### 4.12 Backup and Recovery
+- **Disaster Recovery Plan**: Include a detailed plan for recovering from major disruptions or disasters, including steps for restoring service and data.
+
+### 4.13 Continuous Integration/Continuous Deployment (CI/CD)
+- **CI/CD Pipelines**: Describe the CI/CD processes in place for automated testing, building, and deployment of the application, to ensure smooth and reliable updates.
+
+### 4.14 User Experience (UX) Considerations
+- **User Onboarding**: Outline strategies for onboarding new users to ensure they can easily understand and use the application.
+- **Feedback Mechanism**: Include a way for users to provide feedback or report issues directly through the application.
+
+### 4.15 API and Integration Points
+- **API Documentation**: Ensure that all APIs used for integration (e.g., for payment processing, content delivery) are well-documented and include information on rate limits, authentication, and data formats.
+- **Third-Party Integrations**: Specify any third-party services or APIs that the application will integrate with, including their roles and how they will be managed.
+
+### 4.16 Internationalization and Localization
+- **Regional Content**: Provide more details on how content will be localized or region-specific, including how rights management will handle content availability by region.
+- **Localization Testing**: Outline the approach for testing localization to ensure that translations and regional adaptations work as expected.
+
+### 4.17 Environmental and Social Impact
+- **Sustainability**: Consider including aspects related to the environmental impact of the system, such as energy-efficient coding practices or data center sustainability.
+- **Social Responsibility**: Address any measures taken to ensure the content is socially responsible and adheres to ethical guidelines.
+
+### 4.18 User and Admin Roles
+- **Role Management**: Define different user roles and permissions within the system, such as admin, content creator, and viewer, and outline the access controls for each role.
+
+### 4.19 Incident Management
+- **Incident Response Plan**: Develop a plan for responding to and managing incidents, including security breaches or service outages, to minimize impact and recover quickly.
+
+## 5. Assumptions and Dependencies
+- The Netflix clone assumes that users have access to a stable internet connection with sufficient bandwidth for streaming.
+- The system depends on third-party services such as payment gateways, content delivery networks (CDNs), and streaming servers to function effectively.
+- It is assumed that device manufacturers will maintain compatibility with standard video codecs and streaming protocols supported by the application.
+- Integration with third-party APIs shall be stable, with well-documented interfaces for seamless content delivery, payment processing, and user authentication.
+
+## 6. Acceptance Criteria
+- The app shall pass all functional and non-functional tests as outlined in this document.
+- Beta testing shall be conducted with a focus on usability, performance, and functionality, and all critical feedback must be addressed before final release.
+- End-user feedback collected during testing phases must be incorporated, especially regarding content discovery, playback experience, and ease of use.
+- The system shall meet all specified security and performance benchmarks, including 99.9% uptime, secure payments, and data protection compliance.
+
+## 7. Conclusion
+This User Requirements Document (URD) defines the scope, functionalities, and performance expectations for the Netflix clone project. It serves as a comprehensive guide for developers, designers, and testers to ensure that the final product meets user expectations and project goals. By addressing both the functional and non-functional requirements, this document ensures that the application is built to be user-friendly, secure, scalable, and aligned with modern streaming standards.
