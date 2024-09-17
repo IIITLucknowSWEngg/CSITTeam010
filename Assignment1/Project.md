@@ -77,3 +77,55 @@
 
 - **Personalized Notifications:**
   - Users can receive notifications when new episodes or movies are added to their watchlist or favorite genres.
+    
+### 6. Subscription Management:
+- **Subscription Plans:**
+  - Three-tier subscription model: Basic (1 screen, 480p), Standard (2 screens, 1080p), and Premium (4 screens, 4K HDR).
+  - Each tier has different pricing based on the number of screens and video quality.
+
+- **Payment Methods:**
+  - Multiple payment options, including credit/debit cards, PayPal, Apple Pay, and Google Wallet.
+  -	Payment gateway integration for secure recurring payments.
+  - Ability to pause or cancel subscriptions.
+
+- **Subscription Upgrade/Downgrade:**
+  - Users can upgrade or downgrade their subscription plan anytime.
+  - Prorated billing adjustment when changing plans mid-cycle.
+
+### 7. Content Rating and Reviews:
+- **Rating:**
+  - Users can rate shows and movies on a 1-5 star scale.
+
+- **Reviews:**
+  - Users can leave text reviews for content, with an option to make reviews public or private.
+
+- **Aggregated Ratings:**
+  - Display overall ratings based on user reviews.
+  - Show critic ratings and reviews for specific content.
+
+ ### 8. Download for Offline Viewing:
+- **Offline Downloads:**
+  - Users can download select titles for offline viewing, with file size options to suit device storage constraints.
+  - Automatic download expiration after a set period (e.g., 30 days) to encourage fresh content consumption.
+
+### 9. Push Notifications:
+- **New Releases:**
+  -  Notifications for new shows or movies released in a user’s favorite genres or watchlist.
+-  **Reminders**:
+  -  Notifications for upcoming movie/show release dates, promotional offers, and subscription renewals.
+- **Customizable Preferences:**
+  -  Users can control the type and frequency of notifications they receive (e.g., trailers, new releases, promotions).
+
+### 10. Multi-Language and Localization:
+  - **Localization:**
+    -  The app will support multiple languages, including English, Spanish, French, German, and others.
+  - **Content Based on Region:**
+    -  Region-based content availability due to licensing agreements.
+
+### Excluded Features:
+ -  **Advanced AI-based Content Recommendation:**
+  - No use of complex machine learning algorithms for personalized recommendations beyond basic user preferences and viewing history.
+ -  **Live TV Streaming:**
+  -  Excludes live broadcasting or pay-per-view events.
+ - **Third-Party Streaming Integrations:**
+  -  No integration with external streaming services like Hulu, Disney+, or Amazon Prime Video.
