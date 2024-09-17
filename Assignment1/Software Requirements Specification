@@ -118,3 +118,89 @@ Description: The system provides personalized content recommendations based on u
 Functional Requirements:
 The system shall analyze user viewing history to generate personalized recommendations.
 The system shall display recommended content on the user’s homepage and content discovery pages.
+
+
+3.6 Parental Controls and Content Restrictions
+
+•	Description: Users can set parental controls to restrict access to certain content.
+•	Functional Requirements:
+o	The system shall allow users to set up and manage parental controls.
+o	The system shall restrict access to content based on user-defined settings and ratings.
+
+3.7 User Ratings and Reviews
+
+•	Description: Users can rate and review content.
+•	Functional Requirements:
+o	The system shall allow users to rate and review content.
+o	The system shall display average ratings and user reviews on content pages.
+4. External Interface Requirements
+
+4.1 User Interfaces
+
+•	Web Application: The UI should be intuitive, with easy navigation and access to key functionalities. The web app will be designed with responsiveness to ensure compatibility across various screen sizes.
+•	Mobile Application: The mobile app should offer similar functionalities to the web app with an optimized touch interface.
+4.2 Hardware Interfaces
+•	The system will interact with device hardware, including cameras (for profile pictures), and audio/video playback components.
+4.3 Software Interfaces
+•	Third-Party APIs: Integration with APIs for payment processing, CDN services, and recommendations.
+•	Database: The system will use a relational database (e.g., PostgreSQL) for data storage and management.
+
+4.4 Communication Interfaces
+
+•	The application will communicate over secure HTTPS protocols to ensure data privacy and integrity. It will also use WebSocket for real-time updates and notifications.
+
+5. Non-Functional Requirements (NFRs)
+
+5.1 Performance Requirements
+
+•	The application shall load within 3 seconds on web and mobile devices under normal network conditions.
+•	The system shall handle up to 50,000 concurrent users without performance degradation.
+•	Video playback shall start within 5 seconds of user request.
+
+5.2 Security Requirements
+
+•	User data shall be encrypted both in transit (using TLS) and at rest (using AES-256).
+•	The system shall enforce strong authentication and authorization measures.
+•	Regular security audits and penetration testing shall be conducted to identify and mitigate vulnerabilities.
+
+5.3 Availability and Reliability
+
+•	The system shall achieve 99.9% uptime, with minimal downtime for maintenance.
+•	The application shall be resilient to server failures, with automatic failover mechanisms in place.
+•	Data backups shall be performed daily and stored in geographically diverse locations.
+
+5.4 Scalability
+
+•	The system architecture shall support horizontal scaling to handle increased load.
+•	The application shall be designed to accommodate new features and services without significant refactoring.
+•	The database shall be optimized to handle large volumes of data, with efficient indexing and query optimization.
+
+5.5 Usability
+
+•	The UI/UX design shall prioritize ease of use, ensuring that all users can navigate the application without extensive training.
+•	The application shall be accessible to users with disabilities, following WCAG 2.1 guidelines.
+•	User feedback mechanisms shall be integrated to continuously improve the usability of the application.
+
+5.6 Maintainability
+
+•	The codebase shall be modular, with clear separation of concerns to facilitate easy maintenance and updates.
+•	Comprehensive documentation shall be maintained for all system components, including APIs, database schemas, and user interfaces.
+•	The system shall support automated testing to ensure that new updates do not introduce regressions.
+
+5.7 Compliance
+
+•	The system shall comply with relevant data protection regulations, including GDPR and CCPA.
+•	Payment processing shall adhere to PCI-DSS standards.
+•	The system shall include features for user data export and deletion to comply with privacy regulations.
+
+6. Other Requirements
+
+•	Localization: The application shall support multiple languages and regional formats.
+•	Ethical Requirements: The application shall include features to prevent misuse, such as reporting mechanisms for inappropriate content or behavior.
+
+7. Appendices
+
+•	Appendix A: Glossary of Terms
+•	Appendix B: Diagrams (System Architecture, Use Case Diagrams)
+•	Appendix C: Detailed Requirements Matrix
+
