@@ -142,3 +142,44 @@ Manages:
 | watch_timestamp| timestamp      | Timestamp of when the content was watched |
 | duration_watched | string       | Duration of content watched            |
 ...
+
+### Explanation:
+- *Users*: Stores user details like name, email, and subscription status.
+- *Videos*: Stores video metadata such as title, genre, description, and CDN URL.
+- *Watchlists*: Stores user-specific watchlist data.
+- *Subscriptions*: Stores subscription plans and user billing information.
+- *Viewing History*: Tracks user watch progress and preferences.
+
+## 6. Interface Design
+
+### 6.1 API Design
+Below are some of the REST API endpoints for interaction:
+- *POST /api/auth/login*: User login
+- *GET /api/content*: Fetch available content
+- *POST /api/subscription*: Manage subscriptions
+- *POST /api/watchlist*: Add or remove content from the watchlist
+
+### 6.2 External System Interfaces
+- *Payment Gateway*: Handles payment transactions (e.g., Stripe, PayPal).
+- *CDN*: Delivers video content efficiently to users.
+- *Recommendation Engine*: Provides personalized content recommendations.
+
+### 6.3 Notification Flow Diagram
+This diagram represents the flow of notifications between services.
+
+## 7. Non-Functional Requirements
+
+### 7.1 Performance
+The system should handle at least 50,000 simultaneous video streams.
+
+### 7.2 Scalability
+The backend and CDN must be horizontally scalable to support high traffic.
+
+### 7.3 Availability
+99.99% uptime with multi-region redundancy for critical services.
+
+### 7.4 Security
+Data encryption for sensitive information such as user credentials and payment details.
+
+## 8. Conclusion
+This Software Design Description outlines the architecture, modules, database, and interfaces for the Netflix clone system. The use of a modular design and external system integrations ensures a seamless and scalable video streaming experience for users.
