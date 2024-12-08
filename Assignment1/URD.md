@@ -39,7 +39,8 @@ The Netflix will be a media streaming platform that allows users to watch movies
 - UI/UX: User Interface and User Experience refers to the design and usability of the application.  
 - VOD: Video-On-Demand, a system allowing users to select and watch video content at their convenience.
 - GDPR: General Data Protection Regulation.
-- CCPA: California Consumer Privacy Act
+- CCPA: California Consumer Privacy Act.
+- WCAG 2.1: Web Content Accessibility Guidelines 2.1.
 
 ### 1.4 References
 - User Interface Design Document
