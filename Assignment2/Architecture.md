@@ -15,4 +15,4 @@
 ![Component_Diagram_for_Admin](https://github.com/user-attachments/assets/97540879-d196-43cb-bdcb-6bc604f18678)
 
 ## 4. Deployment Diagram
-![Deployment Diagram ](https://github.com/user-attachments/assets/7c52ec54-d31e-41da-92f2-d51d02cbe785)
+![Deployment](https://github.com/user-attachments/assets/6c76edeb-5500-47b1-876f-e3fef3cef8e2)
