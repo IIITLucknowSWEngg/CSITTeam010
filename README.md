@@ -1,7 +1,6 @@
 # CSITTeam010
 CSITTeam010
 
-# Team Octacore
 # Project : Netflix
 
 | **Name**                 | **Branch** | **Roll Number** | **Email**                         | **GitHub Username**    |
