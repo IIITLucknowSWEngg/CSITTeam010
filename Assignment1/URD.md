@@ -41,6 +41,7 @@ The Netflix will be a media streaming platform that allows users to watch movies
 - GDPR: General Data Protection Regulation.
 - CCPA: California Consumer Privacy Act.
 - WCAG 2.1: Web Content Accessibility Guidelines 2.1.
+- CDN: Content Delivery Network.
 
 ### 1.4 References
 - User Interface Design Document
