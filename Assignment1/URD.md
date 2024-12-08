@@ -52,21 +52,21 @@ The Netflix will be a media streaming platform that allows users to watch movies
 ## 2. User Characteristics
 
 ### 2.1 Subscribers (Viewers)
-- **Demographics**: Primarily individuals aged 18-50, familiar with using smartphones, tablets, smart TVs, and web browsers.
-- **Technical Knowledge**: Users are expected to have basic knowledge of navigating streaming applications, adjusting settings, and managing subscriptions.
+- **Demographics**: I am primarily an individual aged 18-50, familiar with using smartphones, tablets, smart TVs, and web browsers.
+- **Technical Knowledge**: I have basic knowledge of navigating streaming applications, adjusting settings, and managing subscriptions.
 - **User Needs**:
-  - Access to a vast content library, including movies, TV shows, and documentaries.
-  - Seamless streaming with minimal buffering and high-quality video across various devices.
-  - Personalization of content based on viewing history and preferences.
-  - Ability to manage their accounts, including payment details and multiple profiles.
-  - Parental controls for child profiles.
+  - I want access to a vast content library, including movies, TV shows, and documentaries.
+  - I expect seamless streaming with minimal buffering and high-quality video across various devices.
+  - I want personalization of content based on my viewing history and preferences.
+  - I need the ability to manage my account, including payment details and multiple profiles.
+  - I expect parental controls for child profiles.
 
 ### 2.2 Admin Users (Content Managers)
-- **Demographics**: Admins managing content, user accounts, and subscription plans.
-- **Technical Knowledge**: Intermediate to advanced knowledge of content management systems, subscription models, and user analytics.
+- **Demographics**: Admins manage content, user accounts, and subscription plans.
+- **Technical Knowledge**: Admins have intermediate to advanced knowledge of content management systems, subscription models, and user analytics.
 - **Admin Needs**:
-  - Ability to manage the platform, including adding/removing content, managing user accounts, monitoring performance, and handling customer support.
-  - Real-time insights into content performance, user engagement, and subscription metrics.
+  - Admins must manage the platform, including adding/removing content, managing user accounts, monitoring performance, and handling customer support.
+  - Admins need real-time insights into content performance, user engagement, and subscription metrics.
 
 ## 3. Functional Requirements
 
