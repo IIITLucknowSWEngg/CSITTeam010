@@ -22,6 +22,9 @@
   - Users can manage profile information such as name, avatar, contact info, and preferred payment method.
   - Profiles can be personalized for adults or children, with parental controls restricting specific content.
 
+
+
+
 ### 2. User Profiles and Roles:
 - **Multiple User Profiles:**
   - A single account supports up to 5 user profiles with distinct watch histories, preferences, and recommendations.
