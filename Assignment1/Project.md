@@ -2,6 +2,8 @@
 
 ## Included Features:
 
+### Netflix is a streaming service that offers a wide selection of movies, TV shows, documentaries, and more
+
 ### 1. User Registration and Authentication:
 - **User Sign-Up:**
   - Users can register using email, phone number, or social media accounts (Google, Facebook, etc.).
