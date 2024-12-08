@@ -1,9 +1,8 @@
 
-                              Software Requirements Specification (SRS) Document
+## Software Requirements Specification (SRS) Document
 
 
-
-                                               1. Introduction
+### 1. Introduction
 
 1.1 Purpose
 This Software Requirements Specification (SRS) document provides a comprehensive overview of the requirements for the streaming application, similar to Netflix. It encompasses both functional and non-functional requirements, and serves as a guideline for developers, testers, and stakeholders throughout the software development lifecycle.
@@ -33,7 +32,7 @@ User Requirements Document
 This document is organized into several sections that describe the overall system, functional requirements, non-functional requirements, and other considerations relevant to the development and implementation of the streaming application.
 
 
-                                                    2. Overall Description
+### 2. Overall Description
 
 
 
@@ -76,7 +75,7 @@ The application will initially support multiple languages and currencies.
 
 
 
-                                                      3. System Features
+### 3. System Features
 
 
 
