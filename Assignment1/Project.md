@@ -1,4 +1,4 @@
-# Project Scope for Netflix Clone
+# Project Scope for Netflix
 
 ## Included Features:
 
