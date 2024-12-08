@@ -1,4 +1,4 @@
-Stakeholders
+## Stakeholders
 
 1. **Project Sponsor**
 •	Role: Provides the financial resources and strategic direction for the Netflix clone project. The project sponsor ensures the project aligns with business goals.
