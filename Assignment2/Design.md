@@ -57,7 +57,7 @@ Manages:
 - Billing and payment processing
 - Subscription status updates
 
-  # Netflix Clone Database Schema
+  # Netflix Database Schema
 
 ## Users
 | Field               | Type                     | Description                       |
