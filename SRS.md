@@ -132,7 +132,8 @@ o	The system shall restrict access to content based on user-defined settings and
 •	Functional Requirements:
 o	The system shall allow users to rate and review content.
 o	The system shall display average ratings and user reviews on content pages.
-4. External Interface Requirements
+
+### 4. External Interface Requirements
 
 4.1 User Interfaces
 
@@ -148,7 +149,7 @@ o	The system shall display average ratings and user reviews on content pages.
 
 •	The application will communicate over secure HTTPS protocols to ensure data privacy and integrity. It will also use WebSocket for real-time updates and notifications.
 
-5. Non-Functional Requirements (NFRs)
+### 5. Non-Functional Requirements (NFRs)
 
 5.1 Performance Requirements
 
@@ -192,12 +193,12 @@ o	The system shall display average ratings and user reviews on content pages.
 •	Payment processing shall adhere to PCI-DSS standards.
 •	The system shall include features for user data export and deletion to comply with privacy regulations.
 
-6. Other Requirements
+### 6. Other Requirements
 
 •	Localization: The application shall support multiple languages and regional formats.
 •	Ethical Requirements: The application shall include features to prevent misuse, such as reporting mechanisms for inappropriate content or behavior.
 
-7. Appendices
+### 7. Appendices
 
 •	Appendix A: Glossary of Terms
 •	Appendix B: Diagrams (System Architecture, Use Case Diagrams)
