@@ -1,4 +1,4 @@
-# Netflix Clone Architecture 
+# Netflix Architecture 
 
 ## 1. System Context Diagram
 ![alt text](<Screenshot 2024-12-03 235012.png>)
