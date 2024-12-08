@@ -1,4 +1,4 @@
-# Netflix Clone Project: Cross-Reference Matrix
+# Netflix Project: Cross-Reference Matrix
 
 | **Component**           | **Features/Tasks**                                             | **Frontend** | **Backend** | **Database** | **APIs**      | **Testing**    |
 |-------------------------|---------------------------------------------------------------|--------------|-------------|--------------|---------------|----------------|
