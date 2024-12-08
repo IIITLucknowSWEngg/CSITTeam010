@@ -8,15 +8,36 @@ The purpose of this document is to outline the user requirements for developing 
 ### 1.2 Scope
 The Netflix will be a media streaming platform that allows users to watch movies, TV shows, and documentaries across multiple devices. Users can create profiles, search for content, stream videos in various resolutions (HD, UHD, 4K), download content for offline viewing, and manage their subscription plans. The app will cater to both mobile and web platforms, ensuring a seamless experience. Features like real-time adaptive streaming, personalized content recommendations, multi-profile management, and secure payment processing will be key focus areas.
 
-### 1.3 Definitions, Acronyms, and Abbreviations
-- **User/Subscribers**: Individuals who use the app to stream content.
-- **Admin**: The entity responsible for managing content and users.
-- **Profiles**: Multiple user profiles under one account, with different viewing preferences.
-- **HD**: High Definition, 1080p resolution for content streaming.
-- **UHD/4K**: Ultra-High Definition, 2160p resolution for content streaming.
-- **OTT**: Over-the-top media service (streaming media directly to users).
-- **SSO**: Single Sign-On, a feature that allows users to log in using external accounts like Google or Facebook.
-- **API**: Application Programming Interface, used for integrating third-party services like payment gateways and streaming services.
+### 1.3 Definitions, Acronyms, and Abbreviations 
+
+## 1.3.1 Definitions  
+- Adaptive Bitrate Streaming: A method of streaming video content that dynamically adjusts the video quality in real time based on the user’s internet speed to provide a smooth viewing experience.  
+- Parental Controls: Features that allow parents to restrict specific content types for child accounts.  
+- Personalized Recommendations: Suggestions tailored to a user's viewing habits and preferences, designed to enhance content discovery.  
+- Prorated Billing: Adjusted billing charges when a user upgrades or downgrades their subscription plan mid-billing cycle.  
+- Subscription Model: A payment structure offering multiple tiers of access, often differentiated by features like screen count and video quality.  
+- Watch History: A record of all the titles a user has streamed, enabling features like "Resume Watching" and personalized recommendations.  
+- Rating: A score or feedback provided by users to evaluate the quality of a title (e.g., 1-5 stars).  
+- Watch Later: A feature allowing users to add titles to a list for future viewing.  
+- Trending Now: A dynamic section showcasing popular or currently trending titles among users.  
+- Genre Preferences: User-defined settings indicating preferred content genres (e.g., Action, Drama, Comedy), influencing recommendations and search results.  
+- User/Subscribers: Individuals who use the app to stream content.  
+- Admin: The entity responsible for managing content and users within the system.  
+- Profiles: Multiple user profiles under one account, each with distinct viewing preferences and watch histories.  
+- HD (High Definition): 1080p resolution for content streaming, providing better picture quality than standard definition.  
+- UHD/4K (Ultra-High Definition): 2160p resolution for content streaming, offering superior picture quality with greater detail and clarity.  
+- OTT (Over-the-Top): A media service that streams content directly to users over the internet, bypassing traditional cable or satellite television.  
+- User: An individual who interacts with the Netflix clone application, either as a subscriber, profile holder, or guest.  
+
+## 1.3.2 Acronyms and Abbreviations  
+- 2FA: Two-Factor Authentication, an added security layer requiring two forms of identification before granting access.  
+- API: Application Programming Interface, used for integrating third-party services, such as payment gateways and streaming functionalities.  
+- HDR: High Dynamic Range, a video quality enhancement for better color and contrast.  
+- OTP: One-Time Password, a single-use code sent via SMS or email for user verification.  
+- SSO: Single Sign-On, a session and user authentication service that allows users to log in using external accounts like Google or Facebook.  
+- UHD: Ultra High Definition, referring to 4K resolution video quality.  
+- UI/UX: User Interface and User Experience, referring to the design and usability of the application.  
+- VOD: Video-On-Demand, a system allowing users to select and watch video content at their convenience.
 
 ### 1.4 References
 - User Interface Design Document
