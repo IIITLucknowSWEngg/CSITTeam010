@@ -112,6 +112,38 @@ The application will operate on web browsers (Chrome, Firefox, Safari, Edge) and
 - The system shall allow users to rate and review content.
 - The system shall display average ratings and user reviews on content pages.
 
+### 3.8 Netflix Use Cases
+
+#### 3.8.1 Multiple User Profiles
+**Description**: The system supports multiple user profiles under a single account, enabling personalized recommendations and settings for each user.
+
+**Functional Requirements**:
+- The system shall allow users to create and manage multiple profiles under one subscription.
+- The system shall store individual preferences, including watch history, language preferences, and personalized recommendations per profile.
+
+#### 3.8.2 Download and Offline Viewing
+**Description**: Users can download selected content for offline viewing on their devices.
+
+**Functional Requirements**:
+- The system shall allow users to download selected movies and TV shows.
+- The system shall enforce DRM restrictions on downloaded content to prevent unauthorized sharing.
+- The system shall allow users to view downloaded content offline.
+
+#### 3.8.3 Content Streaming Across Multiple Devices
+**Description**: Users can stream content on multiple devices simultaneously, with support for device switching.
+
+**Functional Requirements**:
+- The system shall allow users to start watching content on one device and continue watching it on another without losing progress.
+- The system shall allow streaming on multiple devices based on the user's subscription plan (e.g., 2 or 4 screens).
+
+#### 3.8.4 Smart TV Integration
+**Description**: The system shall support streaming on smart TVs and set-top boxes with optimized UI for larger screens.
+
+**Functional Requirements**:
+- The system shall support integration with smart TVs (e.g., Roku, Apple TV, Fire TV) and allow users to stream content seamlessly.
+- The system shall display content with a responsive UI tailored for large screens and remote control navigation.
+
+
 ## 4. External Interface Requirements
 
 ### 4.1 User Interfaces
