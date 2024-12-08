@@ -36,8 +36,10 @@ The Netflix will be a media streaming platform that allows users to watch movies
 - OTP: One-Time Password, a single-use code sent via SMS or email for user verification.  
 - SSO: Single Sign-On, a session and user authentication service that allows users to log in using external accounts like Google or Facebook.  
 - UHD: Ultra High Definition, referring to 4K resolution video quality.  
-- UI/UX: User Interface and User Experience, referring to the design and usability of the application.  
+- UI/UX: User Interface and User Experience refers to the design and usability of the application.  
 - VOD: Video-On-Demand, a system allowing users to select and watch video content at their convenience.
+- GDPR: General Data Protection Regulation.
+- CCPA: California Consumer Privacy Act
 
 ### 1.4 References
 - User Interface Design Document
