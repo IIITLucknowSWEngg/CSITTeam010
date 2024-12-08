@@ -3,10 +3,10 @@
 ## 1. Introduction
 
 ### 1.1 Purpose
-The purpose of this document is to outline the user requirements for developing a Netflix clone application. This document will serve as the primary reference for the design, development, and testing of the application, ensuring that it meets the expectations and needs of its users—both content viewers (subscribers) and content providers (admin). The requirements in this document address both functional and non-functional aspects of the project.
+The purpose of this document is to outline the user requirements for developing a Netflix application. This document will serve as the primary reference for the design, development, and testing of the application, ensuring that it meets the expectations and needs of its users—both content viewers (subscribers) and content providers (admin). The requirements in this document address both functional and non-functional aspects of the project.
 
 ### 1.2 Scope
-The Netflix clone will be a media streaming platform that allows users to watch movies, TV shows, and documentaries across multiple devices. Users can create profiles, search for content, stream videos in various resolutions (HD, UHD, 4K), download content for offline viewing, and manage their subscription plans. The app will cater to both mobile and web platforms, ensuring a seamless experience. Features like real-time adaptive streaming, personalized content recommendations, multi-profile management, and secure payment processing will be key focus areas.
+The Netflix will be a media streaming platform that allows users to watch movies, TV shows, and documentaries across multiple devices. Users can create profiles, search for content, stream videos in various resolutions (HD, UHD, 4K), download content for offline viewing, and manage their subscription plans. The app will cater to both mobile and web platforms, ensuring a seamless experience. Features like real-time adaptive streaming, personalized content recommendations, multi-profile management, and secure payment processing will be key focus areas.
 
 ### 1.3 Definitions, Acronyms, and Abbreviations
 - **User/Subscribers**: Individuals who use the app to stream content.
