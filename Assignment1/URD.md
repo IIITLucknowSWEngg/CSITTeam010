@@ -240,3 +240,5 @@ The Netflix will be a media streaming platform that allows users to watch movies
 
 ## 7. Conclusion
 This User Requirements Document (URD) defines the scope, functionalities, and performance expectations for the Netflix clone project. It serves as a comprehensive guide for developers, designers, and testers to ensure that the final product meets user expectations and project goals. By addressing both the functional and non-functional requirements, this document ensures that the application is built to be user-friendly, secure, scalable, and aligned with modern streaming standards.
+
+## Reference :  Netflix TechBlog : https://netflixtechblog.com/
