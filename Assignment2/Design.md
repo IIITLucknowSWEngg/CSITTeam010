@@ -91,6 +91,7 @@ Manages:
 | genre       | [string]     | Genres of the content                 |
 | release_date| timestamp      | Release date of the content           |
 | rating      | float          | Rating of the content                 |
+| views      | BigNumber          | Views of the content                 |
 | duration    | string         | Duration (e.g., "2h 10m")             |
 | cast        | [string]     | Cast members                          |
 | description | string         | Description of the content            |
